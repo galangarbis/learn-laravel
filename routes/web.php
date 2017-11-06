@@ -36,3 +36,6 @@ Route::get('users',function(){
 	return $users;
 });
 */
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
