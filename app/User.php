@@ -43,8 +43,8 @@ class User extends Authenticatable
         return strtoupper($value);
     }
 
-    public function getEmailAttribute($value)
-    {
-        return strtok($value, '@');
-    }
+    // public function getEmailAttribute($value)
+    // {
+    //     return strtok($value, '@');
+    // }
 }
